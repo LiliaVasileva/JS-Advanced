@@ -14,11 +14,8 @@ function largestNumber (numberOne, numberTwo, numberThree){
 
         result = numThree;
     }
-
     console.log(`The largest number is ${result}.`)
     }
-
-
 largestNumber(5, -3, 16)
 
 largestNumber(9, 11, 18)
