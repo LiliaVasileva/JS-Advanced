@@ -12,4 +12,4 @@ function greatestCommonDivisor(x, y) {
     return x;
 }
 
-greatestCommonDivisor(15, 5)
+console.log(greatestCommonDivisor(15, 5))

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading"> Hello DOM!</h1>
+    <ul>
+        <li id="my-test-car">Audi</li>
+        <li>test</li>
+        <li>test</li>
+    </ul>
+    <!-- <button onclick="let name = 'Pesho';console.log(name);">
+         Click 
+    </button> -->
+
+    <button onclick="changeTitle()">
+        Click Me
+    </button>
+
+    <script>
+        function onClickFunk () {
+            let name = 'Pesho';
+            console.log(name);
+
+        }
+
+        function changeTitle(){
+            let headingElement = document.getElementById('heading');
+            headingElement.textContent = 'Hello from JS';
+        }
+        function changeCar(){
+
+        }
+
+
+        </script>
+    <script src="demo.js"></script>
+</body>
+</html>
