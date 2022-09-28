@@ -14,7 +14,6 @@ function search() {
          town.style.fontWeight = 'normal';
          town.style.textDecoration ='none';
       }
-
    }
 
    result.textContent = `${countResult} matches found`;
