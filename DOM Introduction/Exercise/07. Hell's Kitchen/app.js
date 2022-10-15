@@ -2,17 +2,29 @@ function solve() {
    document.querySelector('#btnSend').addEventListener('click', onClick);
 
    function onClick () {
-      let input = JSON.parse.document.querySelector('#input textarea').value;
+      let input = document.querySelector('#inputs textarea').value;
       let avgSalary = 0;
       let totalSalary = 0;
       let currentAvgSalary = 0;
       let bestName = '';
       let output = {};
 
-      for (let line of input){
-         console.log(line);
-         let restaurantInfo = line.split(' -');
+      let restaurantInfo = input.split('",');
+
+      for (restaurant of restaurantInfo) {
+         let workersInfo = Array(restaurant.split(' - ')[1]);
+
+         console.log(workersInfo)
+
+
+         for (worker of workers){
+            let name, salary = worker.split(' ');
+            console.log(name);
+            console.log(salary);
+         };
       }
+
+
 
       
    }
