@@ -1,3 +1,4 @@
+// First solution:
 // function attachEventsListeners() {
 
 //     let inputDays = document.getElementById('days');
@@ -36,6 +37,7 @@
 // }
 
 
+// Second solution:
 
 function attachEventsListeners() {
 
@@ -55,6 +57,7 @@ function attachEventsListeners() {
     document.getElementById('hoursBtn').addEventListener('click', onConvert);
     document.getElementById('minutesBtn').addEventListener('click', onConvert);
     document.getElementById('secondsBtn').addEventListener('click', onConvert);
+    debugger;
 
     function convert(value, units){
         let days = value / rations[units]
