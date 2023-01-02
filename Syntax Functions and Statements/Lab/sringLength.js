@@ -1,4 +1,4 @@
-function stringLenght(inputOne, inputTwo, inputThree) {
+function stringLength(inputOne, inputTwo, inputThree) {
     let textOneLength = inputOne.length;
     let textTwoLength = inputTwo.length;
     let textThreeLength  = inputThree.length;
@@ -7,4 +7,4 @@ function stringLenght(inputOne, inputTwo, inputThree) {
     console.log(Math.floor(sumAllText / 3))
 }
 
-stringLenght('chocolate', 'ice cream', 'cake')
+stringLength('chocolate', 'ice cream', 'cake')
